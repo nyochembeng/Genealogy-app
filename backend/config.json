@@ -1,9 +1,10 @@
 {
   "domain": "https://dev-kai1hleop44lhpz3.us.auth0.com",
   "clientId": "WwXoJ3afmb3owuJVOWQIz4MmRID4Fgzh",
-  "redirectUri": "http://localhost:3000",
+  "redirectUri": "http://127.0.0.1:3000/login",
   "clientSecret": "dsehR1i6qhafbjqgnDj2rH867ZdtxeCAedy21VRPV3wENzEO4AmUAwPZDr3eA1Gl",
-  "baseUrl": "http://localhost:3000",
+  "baseUrl": "http://127.0.0.1:3000",
   "port": 5000,
-  "mongodbUri": "mongodb+srv://nyochembengn:58ydG5tfmUsxUvxn@genealogy-app.0nogi0l.mongodb.net/?retryWrites=true&w=majority&appName=Genealogy-app"
+  "mongodbUri": "mongodb+srv://nyochembengn:58ydG5tfmUsxUvxn@genealogy-app.0nogi0l.mongodb.net/?retryWrites=true&w=majority&appName=Genealogy-app",
+  "jwtSecret": "y0urR4nd0mS3cr3tK3yThatIsLongAndSecure"
 }

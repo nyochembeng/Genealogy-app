@@ -10,9 +10,8 @@ app.use(cors());
 app.use(express.json());
 
 // Intergrating routes
-app.use("/api/auth", require("./routes//registerRoutes")); // Registration routes
-app.use("/api/auth", require("./routes/auth0Routes")); // Authentication routes
-app.use("/api/members", require("./routes/memberRoutes")); // Member routes
+app.use("/api/auth/user", require("./routes/user")); // User routes
+app.use("/api/family", require("./routes/family")); // Family routes
 
 // Error handling middleware (optional)
 app.use((err, req, res, next) => {
