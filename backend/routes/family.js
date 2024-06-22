@@ -1,13 +1,13 @@
 const express = require('express');
 const router = express.Router();
-const Family = require('../models/family');
+const Family = require('../models/Family');
 const auth = require('../middlewares/auth'); // Import authentication middleware
 
 // Get all families the authenticated user belongs to (requires authentication)
-router.get('/', auth, async (req, res) => {
+router.get('/all', auth, async (req, res) => {
   try {
     const user = req.user;
-    const families = await Family.find({ members: user._id }); // Find families where user is a member
+    const families = await Family.find({ members: user._id }).populate('createdBy members'); // Populate creator and member details
     res.send(families);
   } catch (error) {
     res.status(500).send(error.message);
@@ -24,7 +24,7 @@ router.post('/create', auth, async (req, res) => {
       name,
       description,
       createdBy: user._id,
-      members: [user._id] // Add creator as the first member
+      members: [user._id], // Add creator as the first member
     });
     await family.save();
 
@@ -41,7 +41,6 @@ router.get('/:familyId', auth, async (req, res) => {
     if (!family) return res.status(404).send('Family not found');
 
     // Implement permission check here (e.g., check if user is a member of the family)
-    // You can use middleware or logic within the route to restrict access based on user roles or family membership
 
     res.send(family);
   } catch (error) {
@@ -111,6 +110,79 @@ router.put('/:familyId/update', auth, async (req, res) => {
     res.send(family);
   } catch (error) {
     res.status(400).send(error.message); // Handle potential errors during update
+  }
+});
+
+// Get all photos for a specific family (requires authorization with permission check)
+router.get('/:familyId/photos', auth, async (req, res) => {
+  try {
+    const familyId = req.params.familyId;
+    const family = await Family.findById(familyId);
+    if (!family) return res.status(404).send('Family not found');
+
+    // Implement permission check here (e.g., check if user is a member of the family)
+
+    res.send(family.photos);
+  } catch (error) {
+    res.status(500).send(error.message);
+  }
+});
+
+// Upload a new photo for a family (requires authorization with permission check)
+// (Assuming you have a separate route for handling file uploads)
+router.post('/:familyId/upload-photo', auth, async (req, res) => {
+  try {
+    const familyId = req.params.familyId;
+    const { filename, path } = req.body; // Assuming photo details are sent in the request body
+
+    const family = await Family.findById(familyId);
+    if (!family) return res.status(404).send('Family not found');
+
+    // Implement permission check here (e.g., check if user has permission to upload photos)
+
+    family.photos.push({ filename, path, uploadedAt: Date.now() });
+    await family.save();
+
+    res.status(201).send(family);
+  } catch (error) {
+    res.status(400).send(error.message);
+  }
+});
+
+// Get all posts for a specific family (requires authorization with permission check)
+router.get('/:familyId/posts', auth, async (req, res) => {
+  try {
+    const familyId = req.params.familyId;
+    const family = await Family.findById(familyId).populate('posts.author'); // Populate author details for posts
+
+    if (!family) return res.status(404).send('Family not found');
+
+    // Implement permission check here (e.g., check if user is a member of the family)
+
+    res.send(family.posts);
+  } catch (error) {
+    res.status(500).send(error.message);
+  }
+});
+
+// Create a new post for a family (requires authorization with permission check)
+router.post('/:familyId/create-post', auth, async (req, res) => {
+  try {
+    const familyId = req.params.familyId;
+    const { content } = req.body;
+    const user = req.user; // Get user details from authentication middleware
+
+    const family = await Family.findById(familyId);
+    if (!family) return res.status(404).send('Family not found');
+
+    // Implement permission check here (e.g., check if user can create posts)
+
+    family.posts.push({ content, author: user._id, createdAt: Date.now() });
+    await family.save();
+
+    res.status(201).send(family);
+  } catch (error) {
+    res.status(400).send(error.message);
   }
 });
 

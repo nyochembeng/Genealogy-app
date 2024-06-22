@@ -1,0 +1,844 @@
+[
+    {
+        
+      "firstName": "John",
+      "middleName": "A",
+      "lastName": "Doe",
+      "email": "john.doe1@example.com",
+      "password": "password123",
+      "sex": "Male",
+      "dateOfBirth": "1980-01-15",
+      "fathersName": "60d0fe4f5311236168a109ca",
+      "mothersName": "60d0fe4f5311236168a109cb",
+      "socialMedia": {
+        "whatsapp": "1234567890",
+        "facebook": "john.doe1",
+        "instagram": "john_doe1",
+        "tiktok": "john.doe1"
+      },
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001"
+      },
+      "profilePic": "profilePic1.jpg",
+      "photoAlbum": ["album1_pic1.jpg", "album1_pic2.jpg"],
+      "biography": "John Doe is a software developer from New York.",
+      "role": "admin",
+      "familyId": "60d0fe4f5311236168a109cd"
+    },
+    {
+      "firstName": "Jane",
+      "middleName": "B",
+      "lastName": "Smith",
+      "email": "jane.smith1@example.com",
+      "password": "password123",
+      "sex": "Female",
+      "dateOfBirth": "1985-05-20",
+      "fathersName": "60d0fe4f5311236168a109ce",
+      "mothersName": "60d0fe4f5311236168a109cf",
+      "socialMedia": {
+        "whatsapp": "0987654321",
+        "facebook": "jane.smith1",
+        "instagram": "jane_smith1",
+        "tiktok": "jane.smith1"
+      },
+      "address": {
+        "street": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90001"
+      },
+      "profilePic": "profilePic2.jpg",
+      "photoAlbum": ["album2_pic1.jpg", "album2_pic2.jpg"],
+      "biography": "Jane Smith is a graphic designer from Los Angeles.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a109d0"
+    },
+    {
+      "firstName": "Emily",
+      "middleName": "C",
+      "lastName": "Johnson",
+      "email": "emily.johnson1@example.com",
+      "password": "password123",
+      "sex": "Female",
+      "dateOfBirth": "1990-09-10",
+      "fathersName": "60d0fe4f5311236168a109d1",
+      "mothersName": "60d0fe4f5311236168a109d2",
+      "socialMedia": {
+        "whatsapp": "1122334455",
+        "facebook": "emily.johnson1",
+        "instagram": "emily_johnson1",
+        "tiktok": "emily.johnson1"
+      },
+      "address": {
+        "street": "789 Pine St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60601"
+      },
+      "profilePic": "profilePic3.jpg",
+      "photoAlbum": ["album3_pic1.jpg", "album3_pic2.jpg"],
+      "biography": "Emily Johnson is a teacher from Chicago.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a109d3"
+    },
+    {
+      "firstName": "Michael",
+      "middleName": "D",
+      "lastName": "Williams",
+      "email": "michael.williams1@example.com",
+      "password": "password123",
+      "sex": "Male",
+      "dateOfBirth": "1975-12-05",
+      "fathersName": "60d0fe4f5311236168a109d4",
+      "mothersName": "60d0fe4f5311236168a109d5",
+      "socialMedia": {
+        "whatsapp": "5566778899",
+        "facebook": "michael.williams1",
+        "instagram": "michael_williams1",
+        "tiktok": "michael.williams1"
+      },
+      "address": {
+        "street": "101 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77001"
+      },
+      "profilePic": "profilePic4.jpg",
+      "photoAlbum": ["album4_pic1.jpg", "album4_pic2.jpg"],
+      "biography": "Michael Williams is an engineer from Houston.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a109d6"
+    },
+    {
+      "firstName": "David",
+      "middleName": "E",
+      "lastName": "Brown",
+      "email": "david.brown1@example.com",
+      "password": "password123",
+      "sex": "Male",
+      "dateOfBirth": "1995-08-30",
+      "fathersName": "60d0fe4f5311236168a109d7",
+      "mothersName": "60d0fe4f5311236168a109d8",
+      "socialMedia": {
+        "whatsapp": "6677889900",
+        "facebook": "david.brown1",
+        "instagram": "david_brown1",
+        "tiktok": "david.brown1"
+      },
+      "address": {
+        "street": "202 Oak St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "85001"
+      },
+      "profilePic": "profilePic5.jpg",
+      "photoAlbum": ["album5_pic1.jpg", "album5_pic2.jpg"],
+      "biography": "David Brown is a student from Phoenix.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a109d9"
+    },
+    {
+      "firstName": "Sarah",
+      "middleName": "F",
+      "lastName": "Jones",
+      "email": "sarah.jones1@example.com",
+      "password": "password123",
+      "sex": "Female",
+      "dateOfBirth": "1988-03-14",
+      "fathersName": "60d0fe4f5311236168a109da",
+      "mothersName": "60d0fe4f5311236168a109db",
+      "socialMedia": {
+        "whatsapp": "7788990011",
+        "facebook": "sarah.jones1",
+        "instagram": "sarah_jones1",
+        "tiktok": "sarah.jones1"
+      },
+      "address": {
+        "street": "303 Birch St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "19101"
+      },
+      "profilePic": "profilePic6.jpg",
+      "photoAlbum": ["album6_pic1.jpg", "album6_pic2.jpg"],
+      "biography": "Sarah Jones is a nurse from Philadelphia.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a109dc"
+    },
+    {
+      "firstName": "Robert",
+      "middleName": "G",
+      "lastName": "Miller",
+      "email": "robert.miller1@example.com",
+      "password": "password123",
+      "sex": "Male",
+      "dateOfBirth": "1982-07-22",
+      "fathersName": "60d0fe4f5311236168a109dd",
+      "mothersName": "60d0fe4f5311236168a109de",
+      "socialMedia": {
+        "whatsapp": "8899001122",
+        "facebook": "robert.miller1",
+        "instagram": "robert_miller1",
+        "tiktok": "robert.miller1"
+      },
+      "address": {
+        "street": "404 Cedar St",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78201"
+      },
+      "profilePic": "profilePic7.jpg",
+      "photoAlbum": ["album7_pic1.jpg", "album7_pic2.jpg"],
+      "biography": "Robert Miller is a firefighter from San Antonio.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a109df"
+    },
+    {
+      "firstName": "Linda",
+      "middleName": "H",
+      "lastName": "Davis",
+      "email": "linda.davis1@example.com",
+      "password": "password123",
+      "sex": "Female",
+      "dateOfBirth": "1992-04-11",
+      "fathersName": "60d0fe4f5311236168a109e0",
+      "mothersName": "60d0fe4f5311236168a109e1",
+      "socialMedia": {
+        "whatsapp": "9900112233",
+        "facebook": "linda.davis1",
+        "instagram": "linda_davis1",
+        "tiktok": "linda.davis1"
+      },
+      "address": {
+        "street": "505 Walnut St",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "92101"
+      },
+      "profilePic": "profilePic8.jpg",
+      "photoAlbum": ["album8_pic1.jpg", "album8_pic2.jpg"],
+      "biography": "Linda Davis is a chef from San Diego.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a109e2"
+    },
+    {
+      "firstName": "James",
+      "middleName": "I",
+      "lastName": "Garcia",
+      "email": "james.garcia1@example.com",
+      "password": "password123",
+      "sex": "Male",
+      "dateOfBirth": "1978-11-09",
+      "fathersName": "60d0fe4f5311236168a109e3",
+      "mothersName": "60d0fe4f5311236168a109e4",
+      "socialMedia": {
+        "whatsapp": "1231231234",
+        "facebook": "james.garcia1",
+        "instagram": "james_garcia1",
+        "tiktok": "james.garcia1"
+      },
+      "address": {
+        "street": "606 Spruce St",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75201"
+      },
+      "profilePic": "profilePic9.jpg",
+      "photoAlbum": ["album9_pic1.jpg", "album9_pic2.jpg"],
+      "biography": "James Garcia is a mechanic from Dallas.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a109e5"
+    },
+    {
+      "firstName": "Patricia",
+      "middleName": "J",
+      "lastName": "Martinez",
+      "email": "patricia.martinez1@example.com",
+      "password": "password123",
+      "sex": "Female",
+      "dateOfBirth": "1993-10-17",
+      "fathersName": "60d0fe4f5311236168a109e6",
+      "mothersName": "60d0fe4f5311236168a109e7",
+      "socialMedia": {
+        "whatsapp": "2342342345",
+        "facebook": "patricia.martinez1",
+        "instagram": "patricia_martinez1",
+        "tiktok": "patricia.martinez1"
+      },
+      "address": {
+        "street": "707 Redwood St",
+        "city": "San Jose",
+        "state": "CA",
+        "zip": "95101"
+      },
+      "profilePic": "profilePic10.jpg",
+      "photoAlbum": ["album10_pic1.jpg", "album10_pic2.jpg"],
+      "biography": "Patricia Martinez is a nurse from San Jose.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a109e8"
+    },
+    {
+      "firstName": "Christopher",
+      "middleName": "K",
+      "lastName": "Rodriguez",
+      "email": "christopher.rodriguez1@example.com",
+      "password": "password123",
+      "sex": "Male",
+      "dateOfBirth": "1981-06-23",
+      "fathersName": "60d0fe4f5311236168a109e9",
+      "mothersName": "60d0fe4f5311236168a109e9",
+      "socialMedia": {
+        "whatsapp": "3453453456",
+        "facebook": "christopher.rodriguez1",
+        "instagram": "christopher_rodriguez1",
+        "tiktok": "christopher.rodriguez1"
+      },
+      "address": {
+        "street": "808 Fir St",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "73301"
+      },
+      "profilePic": "profilePic11.jpg",
+      "photoAlbum": ["album11_pic1.jpg", "album11_pic2.jpg"],
+      "biography": "Christopher Rodriguez is a police officer from Austin.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a109ea"
+    },
+    {
+      "firstName": "Elizabeth",
+      "middleName": "L",
+      "lastName": "Martinez",
+      "email": "elizabeth.martinez1@example.com",
+      "password": "password123",
+      "sex": "Female",
+      "dateOfBirth": "1979-12-19",
+      "fathersName": "60d0fe4f5311236168a109eb",
+      "mothersName": "60d0fe4f5311236168a109ec",
+      "socialMedia": {
+        "whatsapp": "4564564567",
+        "facebook": "elizabeth.martinez1",
+        "instagram": "elizabeth_martinez1",
+        "tiktok": "elizabeth.martinez1"
+      },
+      "address": {
+        "street": "909 Poplar St",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "32099"
+      },
+      "profilePic": "profilePic12.jpg",
+      "photoAlbum": ["album12_pic1.jpg", "album12_pic2.jpg"],
+      "biography": "Elizabeth Martinez is a marketing manager from Jacksonville.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a109ed"
+    },
+    {
+      "firstName": "Steven",
+      "middleName": "M",
+      "lastName": "Hernandez",
+      "email": "steven.hernandez1@example.com",
+      "password": "password123",
+      "sex": "Male",
+      "dateOfBirth": "1983-04-30",
+      "fathersName": "60d0fe4f5311236168a109ee",
+      "mothersName": "60d0fe4f5311236168a109ef",
+      "socialMedia": {
+        "whatsapp": "5675675678",
+        "facebook": "steven.hernandez1",
+        "instagram": "steven_hernandez1",
+        "tiktok": "steven.hernandez1"
+      },
+      "address": {
+        "street": "1010 Maple St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94101"
+      },
+      "profilePic": "profilePic13.jpg",
+      "photoAlbum": ["album13_pic1.jpg", "album13_pic2.jpg"],
+      "biography": "Steven Hernandez is a real estate agent from San Francisco.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a109f0"
+    },
+    {
+      "firstName": "Donna",
+      "middleName": "N",
+      "lastName": "Lopez",
+      "email": "donna.lopez1@example.com",
+      "password": "password123",
+      "sex": "Female",
+      "dateOfBirth": "1991-11-28",
+      "fathersName": "60d0fe4f5311236168a109f1",
+      "mothersName": "60d0fe4f5311236168a109f2",
+      "socialMedia": {
+        "whatsapp": "6786786789",
+        "facebook": "donna.lopez1",
+        "instagram": "donna_lopez1",
+        "tiktok": "donna.lopez1"
+      },
+      "address": {
+        "street": "1111 Cypress St",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43085"
+      },
+      "profilePic": "profilePic14.jpg",
+      "photoAlbum": ["album14_pic1.jpg", "album14_pic2.jpg"],
+      "biography": "Donna Lopez is a physical therapist from Columbus.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a109f3"
+    },
+    {
+      "firstName": "Paul",
+      "middleName": "O",
+      "lastName": "Gonzalez",
+      "email": "paul.gonzalez1@example.com",
+      "password": "password123",
+      "sex": "Male",
+      "dateOfBirth": "1987-05-05",
+      "fathersName": "60d0fe4f5311236168a109f4",
+      "mothersName": "60d0fe4f5311236168a109f5",
+      "socialMedia": {
+        "whatsapp": "7897897890",
+        "facebook": "paul.gonzalez1",
+        "instagram": "paul_gonzalez1",
+        "tiktok": "paul.gonzalez1"
+      },
+      "address": {
+        "street": "1212 Elm St",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28202"
+      },
+      "profilePic": "profilePic15.jpg",
+      "photoAlbum": ["album15_pic1.jpg", "album15_pic2.jpg"],
+      "biography": "Paul Gonzalez is a financial analyst from Charlotte.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a109f6"
+    },
+    {
+      "firstName": "Mary",
+      "middleName": "P",
+      "lastName": "Wilson",
+      "email": "mary.wilson1@example.com",
+      "password": "password123",
+      "sex": "Female",
+      "dateOfBirth": "1990-09-16",
+      "fathersName": "60d0fe4f5311236168a109f7",
+      "mothersName": "60d0fe4f5311236168a109f8",
+      "socialMedia": {
+        "whatsapp": "8908908901",
+        "facebook": "mary.wilson1",
+        "instagram": "mary_wilson1",
+        "tiktok": "mary.wilson1"
+      },
+      "address": {
+        "street": "1313 Ash St",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46201"
+      },
+      "profilePic": "profilePic16.jpg",
+      "photoAlbum": ["album16_pic1.jpg", "album16_pic2.jpg"],
+      "biography": "Mary Wilson is a pharmacist from Indianapolis.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a109f9"
+    },
+    {
+      "firstName": "Joshua",
+      "middleName": "Q",
+      "lastName": "Anderson",
+      "email": "joshua.anderson1@example.com",
+      "password": "password123",
+      "sex": "Male",
+      "dateOfBirth": "1994-07-25",
+      "fathersName": "60d0fe4f5311236168a109fa",
+      "mothersName": "60d0fe4f5311236168a109fb",
+      "socialMedia": {
+        "whatsapp": "9019019012",
+        "facebook": "joshua.anderson1",
+        "instagram": "joshua_anderson1",
+        "tiktok": "joshua.anderson1"
+      },
+      "address": {
+        "street": "1414 Beech St",
+        "city": "Fort Worth",
+        "state": "TX",
+        "zip": "76101"
+      },
+      "profilePic": "profilePic17.jpg",
+      "photoAlbum": ["album17_pic1.jpg", "album17_pic2.jpg"],
+      "biography": "Joshua Anderson is a web developer from Fort Worth.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a109fc"
+    },
+    {
+      "firstName": "Barbara",
+      "middleName": "R",
+      "lastName": "Thomas",
+      "email": "barbara.thomas1@example.com",
+      "password": "password123",
+      "sex": "Female",
+      "dateOfBirth": "1984-02-08",
+      "fathersName": "60d0fe4f5311236168a109fd",
+      "mothersName": "60d0fe4f5311236168a109fe",
+      "socialMedia": {
+        "whatsapp": "0120120123",
+        "facebook": "barbara.thomas1",
+        "instagram": "barbara_thomas1",
+        "tiktok": "barbara.thomas1"
+      },
+      "address": {
+        "street": "1515 Chestnut St",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98101"
+      },
+      "profilePic": "profilePic18.jpg",
+      "photoAlbum": ["album18_pic1.jpg", "album18_pic2.jpg"],
+      "biography": "Barbara Thomas is a project manager from Seattle.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a109ff"
+    },
+    {
+      "firstName": "Daniel",
+      "middleName": "S",
+      "lastName": "Taylor",
+      "email": "daniel.taylor1@example.com",
+      "password": "password123",
+      "sex": "Male",
+      "dateOfBirth": "1986-12-21",
+      "fathersName": "60d0fe4f5311236168a10a00",
+      "mothersName": "60d0fe4f5311236168a10a01",
+      "socialMedia": {
+        "whatsapp": "1231231230",
+        "facebook": "daniel.taylor1",
+        "instagram": "daniel_taylor1",
+        "tiktok": "daniel.taylor1"
+      },
+      "address": {
+        "street": "1616 Spruce St",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80201"
+      },
+      "profilePic": "profilePic19.jpg",
+      "photoAlbum": ["album19_pic1.jpg", "album19_pic2.jpg"],
+      "biography": "Daniel Taylor is an architect from Denver.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a10a02"
+    },
+    {
+      "firstName": "Nancy",
+      "middleName": "T",
+      "lastName": "Moore",
+      "email": "nancy.moore1@example.com",
+      "password": "password123",
+      "sex": "Female",
+      "dateOfBirth": "1989-03-07",
+      "fathersName": "60d0fe4f5311236168a10a03",
+      "mothersName": "60d0fe4f5311236168a10a04",
+      "socialMedia": {
+        "whatsapp": "2342342340",
+        "facebook": "nancy.moore1",
+        "instagram": "nancy_moore1",
+        "tiktok": "nancy.moore1"
+      },
+      "address": {
+        "street": "1717 Walnut St",
+        "city": "Detroit",
+        "state": "MI",
+        "zip": "48201"
+      },
+      "profilePic": "profilePic20.jpg",
+      "photoAlbum": ["album20_pic1.jpg", "album20_pic2.jpg"],
+      "biography": "Nancy Moore is a writer from Detroit.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a10a05"
+    },
+    {
+      "firstName": "Karen",
+      "middleName": "U",
+      "lastName": "White",
+      "email": "karen.white1@example.com",
+      "password": "password123",
+      "sex": "Female",
+      "dateOfBirth": "1992-01-18",
+      "fathersName": "60d0fe4f5311236168a10a06",
+      "mothersName": "60d0fe4f5311236168a10a07",
+      "socialMedia": {
+        "whatsapp": "3453453450",
+        "facebook": "karen.white1",
+        "instagram": "karen_white1",
+        "tiktok": "karen.white1"
+      },
+      "address": {
+        "street": "1818 Fir St",
+        "city": "Memphis",
+        "state": "TN",
+        "zip": "37501"
+      },
+      "profilePic": "profilePic21.jpg",
+      "photoAlbum": ["album21_pic1.jpg", "album21_pic2.jpg"],
+      "biography": "Karen White is an interior designer from Memphis.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a10a08"
+    },
+    {
+      "firstName": "Brian",
+      "middleName": "V",
+      "lastName": "Harris",
+      "email": "brian.harris1@example.com",
+      "password": "password123",
+      "sex": "Male",
+      "dateOfBirth": "1988-10-24",
+      "fathersName": "60d0fe4f5311236168a10a09",
+      "mothersName": "60d0fe4f5311236168a10a0a",
+      "socialMedia": {
+        "whatsapp": "4564564560",
+        "facebook": "brian.harris1",
+        "instagram": "brian_harris1",
+        "tiktok": "brian.harris1"
+      },
+      "address": {
+        "street": "1919 Pine St",
+        "city": "Baltimore",
+        "state": "MD",
+        "zip": "21201"
+      },
+      "profilePic": "profilePic22.jpg",
+      "photoAlbum": ["album22_pic1.jpg", "album22_pic2.jpg"],
+      "biography": "Brian Harris is a personal trainer from Baltimore.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a10a0b"
+    },
+    {
+      "firstName": "Lisa",
+      "middleName": "W",
+      "lastName": "Clark",
+      "email": "lisa.clark1@example.com",
+      "password": "password123",
+      "sex": "Female",
+      "dateOfBirth": "1996-06-12",
+      "fathersName": "60d0fe4f5311236168a10a0c",
+      "mothersName": "60d0fe4f5311236168a10a0d",
+      "socialMedia": {
+        "whatsapp": "5675675670",
+        "facebook": "lisa.clark1",
+        "instagram": "lisa_clark1",
+        "tiktok": "lisa.clark1"
+      },
+      "address": {
+        "street": "2020 Cedar St",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02101"
+      },
+      "profilePic": "profilePic23.jpg",
+      "photoAlbum": ["album23_pic1.jpg", "album23_pic2.jpg"],
+      "biography": "Lisa Clark is a student from Boston.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a10a0e"
+    },
+    {
+      "firstName": "Kevin",
+      "middleName": "X",
+      "lastName": "Lewis",
+      "email": "kevin.lewis1@example.com",
+      "password": "password123",
+      "sex": "Male",
+      "dateOfBirth": "1985-04-02",
+      "fathersName": "60d0fe4f5311236168a10a0f",
+      "mothersName": "60d0fe4f5311236168a10a10",
+      "socialMedia": {
+        "whatsapp": "6786786780",
+        "facebook": "kevin.lewis1",
+        "instagram": "kevin_lewis1",
+        "tiktok": "kevin.lewis1"
+      },
+      "address": {
+        "street": "2121 Redwood St",
+        "city": "Las Vegas",
+        "state": "NV",
+        "zip": "89101"
+      },
+      "profilePic": "profilePic24.jpg",
+      "photoAlbum": ["album24_pic1.jpg", "album24_pic2.jpg"],
+      "biography": "Kevin Lewis is a bartender from Las Vegas.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a10a11"
+    },
+    {
+      "firstName": "Betty",
+      "middleName": "Y",
+      "lastName": "Walker",
+      "email": "betty.walker1@example.com",
+      "password": "password123",
+      "sex": "Female",
+      "dateOfBirth": "1998-08-29",
+      "fathersName": "60d0fe4f5311236168a10a12",
+      "mothersName": "60d0fe4f5311236168a10a13",
+      "socialMedia": {
+        "whatsapp": "7897897890",
+        "facebook": "betty.walker1",
+        "instagram": "betty_walker1",
+        "tiktok": "betty.walker1"
+      },
+      "address": {
+        "street": "2323 Birch St",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "zip": "73101"
+      },
+      "profilePic": "profilePic25.jpg",
+      "photoAlbum": ["album25_pic1.jpg", "album25_pic2.jpg"],
+      "biography": "Betty Walker is a student from Oklahoma City.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a10a14"
+    },
+    {
+      "firstName": "Edward",
+      "middleName": "Z",
+      "lastName": "Hill",
+      "email": "edward.hill1@example.com",
+      "password": "password123",
+      "sex": "Male",
+      "dateOfBirth": "1982-09-10",
+      "fathersName": "60d0fe4f5311236168a10a15",
+      "mothersName": "60d0fe4f5311236168a10a16",
+      "socialMedia": {
+        "whatsapp": "8908908900",
+        "facebook": "edward.hill1",
+        "instagram": "edward_hill1",
+        "tiktok": "edward.hill1"
+      },
+      "address": {
+        "street": "2424 Pine St",
+        "city": "Louisville",
+        "state": "KY",
+        "zip": "40201"
+      },
+      "profilePic": "profilePic26.jpg",
+      "photoAlbum": ["album26_pic1.jpg", "album26_pic2.jpg"],
+      "biography": "Edward Hill is a chef from Louisville.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a10a17"
+    },
+    {
+      "firstName": "Sandra",
+      "middleName": "A",
+      "lastName": "Scott",
+      "email": "sandra.scott1@example.com",
+      "password": "password123",
+      "sex": "Female",
+      "dateOfBirth": "1997-03-11",
+      "fathersName": "60d0fe4f5311236168a10a18",
+      "mothersName": "60d0fe4f5311236168a10a19",
+      "socialMedia": {
+        "whatsapp": "0120120120",
+        "facebook": "sandra.scott1",
+        "instagram": "sandra_scott1",
+        "tiktok": "sandra.scott1"
+      },
+      "address": {
+        "street": "2525 Elm St",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97201"
+      },
+      "profilePic": "profilePic27.jpg",
+      "photoAlbum": ["album27_pic1.jpg", "album27_pic2.jpg"],
+      "biography": "Sandra Scott is a student from Portland.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a10a1a"
+    },
+    {
+      "firstName": "Larry",
+      "middleName": "B",
+      "lastName": "Green",
+      "email": "larry.green1@example.com",
+      "password": "password123",
+      "sex": "Male",
+      "dateOfBirth": "1980-06-18",
+      "fathersName": "60d0fe4f5311236168a10a1b",
+      "mothersName": "60d0fe4f5311236168a10a1c",
+      "socialMedia": {
+        "whatsapp": "1231231231",
+        "facebook": "larry.green1",
+        "instagram": "larry_green1",
+        "tiktok": "larry.green1"
+      },
+      "address": {
+        "street": "2626 Oak St",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37201"
+      },
+      "profilePic": "profilePic28.jpg",
+      "photoAlbum": ["album28_pic1.jpg", "album28_pic2.jpg"],
+      "biography": "Larry Green is a musician from Nashville.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a10a1d"
+    },
+    {
+      "firstName": "Karen",
+      "middleName": "C",
+      "lastName": "Adams",
+      "email": "karen.adams1@example.com",
+      "password": "password123",
+      "sex": "Female",
+      "dateOfBirth": "1995-05-23",
+      "fathersName": "60d0fe4f5311236168a10a1e",
+      "mothersName": "60d0fe4f5311236168a10a1f",
+      "socialMedia": {
+        "whatsapp": "2342342341",
+        "facebook": "karen.adams1",
+        "instagram": "karen_adams1",
+        "tiktok": "karen.adams1"
+      },
+      "address": {
+        "street": "2727 Birch St",
+        "city": "Las Vegas",
+        "state": "NV",
+        "zip": "89102"
+      },
+      "profilePic": "profilePic29.jpg",
+      "photoAlbum": ["album29_pic1.jpg", "album29_pic2.jpg"],
+      "biography": "Karen Adams is a journalist from Las Vegas.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a10a20"
+    },
+    {
+      "firstName": "Matthew",
+      "middleName": "D",
+      "lastName": "King",
+      "email": "matthew.king1@example.com",
+      "password": "password123",
+      "sex": "Male",
+      "dateOfBirth": "1982-08-04",
+      "fathersName": "60d0fe4f5311236168a10a21",
+      "mothersName": "60d0fe4f5311236168a10a22",
+      "socialMedia": {
+        "whatsapp": "3453453451",
+        "facebook": "matthew.king1",
+        "instagram": "matthew_king1",
+        "tiktok": "matthew.king1"
+      },
+      "address": {
+        "street": "2828 Pine St",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "64101"
+      },
+      "profilePic": "profilePic30.jpg",
+      "photoAlbum": ["album30_pic1.jpg", "album30_pic2.jpg"],
+      "biography": "Matthew King is a software engineer from Kansas City.",
+      "role": "user",
+      "familyId": "60d0fe4f5311236168a10a23"
+    }
+  ]
+  

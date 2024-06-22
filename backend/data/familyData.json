@@ -1,0 +1,94 @@
+[
+  {
+    "name": "The Smith Family",
+    "description": "A large and diverse family with members spread across different states.",
+    "createdBy": "60d0fe4f5311236168a109dc",
+    "members": [
+      "60d0fe4f5311236168a109dc",
+      "60d0fe4f5311236168a109dd",
+      "60d0fe4f5311236168a109de",
+      "60d0fe4f5311236168a109df",
+      "60d0fe4f5311236168a109e0",
+      "60d0fe4f5311236168a109e1",
+      "60d0fe4f5311236168a109e2",
+      "60d0fe4f5311236168a109e3",
+      "60d0fe4f5311236168a109e4",
+      "60d0fe4f5311236168a109e5",
+      "60d0fe4f5311236168a109e6",
+      "60d0fe4f5311236168a109e7",
+      "60d0fe4f5311236168a109e8",
+      "60d0fe4f5311236168a109e9",
+      "60d0fe4f5311236168a109ea"
+    ],
+    "photos": [
+      {
+        "filename": "family1_pic1.jpg",
+        "path": "/images/family1_pic1.jpg",
+        "uploadedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "filename": "family1_pic2.jpg",
+        "path": "/images/family1_pic2.jpg",
+        "uploadedAt": "2024-02-01T00:00:00.000Z"
+      }
+    ],
+    "posts": [
+      {
+        "content": "Welcome to the Smith Family group!",
+        "author": "60d0fe4f5311236168a109dc",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "content": "Looking forward to our family reunion next month!",
+        "author": "60d0fe4f5311236168a109dd",
+        "createdAt": "2024-02-01T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "name": "The Johnson Clan",
+    "description": "A close-knit family with a love for adventure and gatherings.",
+    "createdBy": "60d0fe4f5311236168a109f0",
+    "members": [
+      "60d0fe4f5311236168a109f0",
+      "60d0fe4f5311236168a109f1",
+      "60d0fe4f5311236168a109f2",
+      "60d0fe4f5311236168a109f3",
+      "60d0fe4f5311236168a109f4",
+      "60d0fe4f5311236168a109f5",
+      "60d0fe4f5311236168a109f6",
+      "60d0fe4f5311236168a109f7",
+      "60d0fe4f5311236168a109f8",
+      "60d0fe4f5311236168a109f9",
+      "60d0fe4f5311236168a109fa",
+      "60d0fe4f5311236168a109fb",
+      "60d0fe4f5311236168a109fc",
+      "60d0fe4f5311236168a109fd",
+      "60d0fe4f5311236168a109fe"
+    ],
+    "photos": [
+      {
+        "filename": "family2_pic1.jpg",
+        "path": "/images/family2_pic1.jpg",
+        "uploadedAt": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "filename": "family2_pic2.jpg",
+        "path": "/images/family2_pic2.jpg",
+        "uploadedAt": "2024-03-10T00:00:00.000Z"
+      }
+    ],
+    "posts": [
+      {
+        "content": "Excited to be part of the Johnson Clan!",
+        "author": "60d0fe4f5311236168a109f0",
+        "createdAt": "2024-01-10T00:00:00.000Z"
+      },
+      {
+        "content": "Our next family trip is coming up soon!",
+        "author": "60d0fe4f5311236168a109f1",
+        "createdAt": "2024-03-10T00:00:00.000Z"
+      }
+    ]
+  }
+]
